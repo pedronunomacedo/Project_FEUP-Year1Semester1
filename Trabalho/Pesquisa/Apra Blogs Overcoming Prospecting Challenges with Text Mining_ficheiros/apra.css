@@ -1,0 +1,750 @@
+/* Published: Feb 21, 2020 10:46 PM  / Latest Feb 21, 2018 08:33 AM / Versions: 20,9 */
+
+@charset "utf-8";
+/* CSS Document */
+
+/* @import url(//secure.itswebs.com/apra/socious/styles.css); */
+
+/* Start of main navigation Styles */
+
+.s-nav-wrapper {
+
+}
+
+.s-nav-collapse .s-navbar > li > a {
+	text-transform:uppercase;
+font-weight:normal;
+font-size: 18px !important;
+    padding: 10px 13px;
+}
+
+.s-header-column a {
+font-weight:normal;
+}
+
+.s-navbar .caret {
+    display: none;
+}
+
+.dropdown-menu {
+    border: 0px;
+	background-color: #58585a;
+}
+
+.dropdown-menu > li > a {
+    text-decoration: none;
+    color: #ffffff;
+	font-size: 14px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f48b1f;
+}
+
+.sectiontitle {
+	font-family:'Roboto', sans-serif;
+	font-size:40px;
+	font-weight:bold;
+	color:#0082c8;
+	background:none;
+	border:0px;	
+	padding:5px 0px 0px 5px;
+	text-indent:-3px;
+	text-transform:uppercase;
+	display:block;
+	width:100%;
+	margin-bottom:10px;
+}
+
+h1, .h1, .title  {
+	font-family:'Roboto', sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	color:#14a2dc;
+	background:none;
+	    padding: 0px 0px 15px 0px;
+margin:0px 0px 18px 0px;
+    text-indent: -1px;
+    display: block;
+    width: 100%;
+    border-bottom: #14a2dc solid 1px;
+}
+
+h2, .h2, .subtitle1, subtitle, .widget_header {
+	font-family:'Roboto', sans-serif;
+	font-size:20px;
+	text-align:left;
+	color:#58585a;
+	background:none;
+	border:0px;
+	padding:0px;	
+	font-weight:bold;
+}
+
+h3, .h3, .subtitle2, .widget_title a {
+	font-family:'Roboto', sans-serif;
+	font-size:16px;
+	text-align:left;
+	color:#58585a;
+	background:none;
+	border:0px;
+	padding:0px;	
+	font-weight:normal;
+}
+
+h4, .h4 {
+	font-family:'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#f48b1f;
+	background:none;
+	border:0px;	
+	padding:0px;
+
+}
+h5, .h5 {
+	font-family:'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:normal;
+	color:#14a2dc;
+	background:none;
+	border:0px;	
+	padding:5px 0px 0px 5px;
+	text-indent:-3px;
+	
+}
+
+h6, .h6 {
+	font-family:'Roboto', sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	color:#f28933;
+	background:none;
+	    padding: 0px 0px 15px 0px;
+margin:0px 0px 18px 0px;
+    text-indent: -1px;
+    display: block;
+    width: 100%;
+	    border-bottom: #f28933 solid 1px;
+
+}
+
+a {font-weight:bold;}
+
+/* Page Styles */
+
+  
+  
+/* Side Navigation Styles */
+
+ul.side_nav {
+	list-style:none;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+}
+
+ul.side_nav li{
+	float:left;	
+width:100%;
+}
+
+
+ul.side_nav li a {
+	font-size:14px;
+	font-weight:normal;
+	color:#58585a;
+	display:block;
+	padding:5px 20px 5px 5px;
+	margin-bottom: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+ul.side_nav li a:hover {
+	color:#ffffff !important;
+	font-weight:normal !important;
+	text-decoration:none;
+	background:#f48b1f url('http://www.aprahome.org/media/srrnndvv.png') no-repeat right ;
+}
+
+
+/* Homepage styles */
+
+
+/*Subpage styles
+=========================================*/
+
+.top_html {
+	width:100%;
+	height: 150px;
+	font-size:40px;
+	color:#ffffff;
+	font-family:'Roboto', sans-serif;
+	background:#003d5f url(/media/yjjjcsjq.jpg) no-repeat;
+	background-size: cover;
+	margin-bottom:20px;
+	padding:45px 0px 15px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+	.blue_box {
+		border:solid 5px #005179;
+		margin: 5px;
+		min-height: 540px;
+	}
+	
+	.orange_box {
+		border:solid 5px #c17125;
+		margin: 5px;
+		min-height: 540px;
+	}
+	
+	.green_box {
+		border:solid 5px #6e882c;
+		margin: 5px;
+		min-height: 540px;
+	}
+	
+	.call_out_title {
+		color:#ffffff;
+		font-weight: bold;
+		font-size: 24px;
+	}
+	
+	.clear_button {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  box-sizing: border-box; }
+.clear_button:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  outline: 0;
+	text-decoration: none;}
+	
+	
+	.calendar_row {
+		width: 100%;
+		margin-left: 0px;
+    margin-top: 15px;
+
+
+
+
+    padding: 5px;
+	}
+	
+	.calendar_row:hover {
+		background: #f48b1f;
+		color: #ffffff !important;
+	}
+	
+	.calendar_link {
+		color:#58585a;
+	}
+	
+	.calendar_link:hover {
+		color:#ffffff;text-decoration: none;
+	}
+	
+	.orange_month {
+		font-size: 16px;
+	}
+	.orange_date {
+               display: block;
+               font-size: 22px;
+               line-height: 10px;
+        }
+	.orange_title {
+		color:#c17125;
+		border-bottom: #c17125 solid 1px;
+		margin-bottom: 8px;
+    	margin-top: 10px;
+    	margin-left: 10px;
+    	margin-right: 20px;
+    	font-weight: bold;
+    	padding: 5px 25px 0px 0px;
+	}
+	
+	.blue_title {
+		color:#005179;
+		border-bottom: #005179 solid 1px;
+		margin-bottom: 8px;
+    	margin-top: 10px;
+    	margin-left: 10px;
+    	margin-right: 20px;
+    	font-weight: bold;
+    	padding: 5px 25px 0px 0px;
+	}
+	
+	.news_row {
+		width: 100%;
+		margin-left: 0px;
+    	margin-top: 15px;
+    	padding: 5px;
+	}
+	
+	.news_row:hover {
+		background: #005179;
+		color: #ffffff !important;
+	}
+	
+	.news_link {
+		color:#14a2dc;
+		font-weight: bold;
+	}
+	
+	.news_link:hover {
+		color:#14a2dc;text-decoration: none;
+	}
+
+
+.member_benefit {
+	padding: 10px 70px 10px 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: #f48b1f solid 2px;
+	min-height: 70px;
+	margin-bottom: 15px;
+}
+
+.member_benefit:hover {
+	color:#ffffff;
+	background: #f48b1f;
+}
+
+.member_benefit a {
+	color:#58585a;
+	text-decoration: none;
+	font-weight: normal;
+}
+.member_benefit a:hover {
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.benefit_event {
+	background: url(http://www.aprahome.org/media/vbrcdswc.png) no-repeat right;
+}
+
+.benefit_event:hover {
+	background: url(http://www.aprahome.org/media/yssrhpph.png) no-repeat right #f48b1f;
+}
+
+.benefit_networking {
+	background: url(http://www.aprahome.org/media/xdjmlxkt.png) no-repeat right;
+}
+
+.benefit_networking:hover {
+	background: url(http://www.aprahome.org/media/lsqxvrhl.png) no-repeat right  #f48b1f;
+}
+
+.benefit_education {
+	background: url(http://www.aprahome.org/media/pykmnvsx.png) no-repeat right;
+}
+
+.benefit_education:hover {
+	background: url(http://www.aprahome.org/media/tncfxxwz.png) no-repeat right #f48b1f;
+}
+
+.benefit_connections {
+	background: url(http://www.aprahome.org/media/jbyyjzrq.png) no-repeat right;
+}
+
+.benefit_connections:hover {
+	background: url(http://www.aprahome.org/media/pylwjncn.png) no-repeat right #f48b1f;
+}
+
+.benefit_chapters {
+	background: url(http://www.aprahome.org/media/xssncprt.png) no-repeat right;
+}
+
+.benefit_chapters:hover {
+	background: url(http://www.aprahome.org/media/bzkvsrgy.png) no-repeat right #f48b1f;
+}
+
+.benefit_get_involved {
+	background: url(http://www.aprahome.org/media/clcddqdf.png) no-repeat right;
+}
+
+.benefit_get_involved:hover {
+	background: url(http://www.aprahome.org/media/vzcmgbll.png) no-repeat right #f48b1f;
+}
+
+.benefit_resources {
+	background: url(http://www.aprahome.org/media/ryzfbzyv.png) no-repeat right;
+}
+
+.benefit_resources:hover {
+	background: url(http://www.aprahome.org/media/qjnsmpdb.png) no-repeat right #f48b1f;
+}
+
+.benefit_partnerships {
+	background: url(http://www.aprahome.org/media/jnngwftp.png) no-repeat right;
+}
+
+.benefit_partnerships:hover {
+	background: url(http://www.aprahome.org/media/whdygxmd.png) no-repeat right #f48b1f;
+}
+
+.tips_box {
+	padding: 10px 80px 10px 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: #f48b1f solid 2px;
+	min-height: 90px;
+	margin-bottom: 15px;
+}
+
+.tip_box1 {
+	background: url(http://www.aprahome.org/media/hnmmnmtv.jpg) no-repeat right;
+}
+
+.tip_box2 {
+	background: url(http://www.aprahome.org/media/btphqtkz.jpg) no-repeat right;
+}
+
+.tip_box3 {
+	background: url(http://www.aprahome.org/media/blxqsndd.jpg) no-repeat right;
+}
+
+.tip_box4 {
+	background: url(http://www.aprahome.org/media/dvvwcjjz.jpg) no-repeat right;
+}
+
+.tip_box5 {
+	background: url(http://www.aprahome.org/media/lwgpwbgx.jpg) no-repeat right;
+}
+
+.tip_box6 {
+	background: url(http://www.aprahome.org/media/bwkhcgkh.jpg) no-repeat right;
+}
+
+.tip_box7 {
+	background: url(http://www.aprahome.org/media/twmpkxfq.jpg) no-repeat right;
+}
+
+.tip_box8 {
+	background: url(http://www.aprahome.org/media/ghnjkkvq.jpg) no-repeat right;
+}
+
+.tips_box strong {
+	color:#f48b1f;
+}
+
+.prepare_box1 {
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: #005179 solid 2px;
+	margin-bottom: 15px;
+	display: inline-block;
+	min-height: 110px;
+	background: url(http://www.aprahome.org/media/mdslwyfb.jpg) no-repeat right;
+}
+
+.prepare_box2 {
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: #005179 solid 2px;
+	margin-bottom: 15px;
+	display: inline-block;
+	min-height: 110px;
+	background: url(http://www.aprahome.org/media/tvqbbzjl.jpg) no-repeat right;
+}
+
+.prepare_box3 {
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: #005179 solid 2px;
+	margin-bottom: 15px;
+	display: inline-block;
+	min-height: 110px;
+	background: url(http://www.aprahome.org/media/ghqzlbdl.jpg) no-repeat right;
+}
+
+.prepare_title {
+	background:#005179;
+	float: left;
+	width: 25%;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	display: table-cell;
+    padding: 4% 10px;
+}
+
+.prepare_text {
+	float: left;
+	width: 75%;
+	padding: 10px 0px 10px 20px;
+}
+
+div.col-md-3 .fa-plus-circle:after {
+    content: "\00a0 \00a0 In This Section:";
+    font-family: sans-serif;
+}
+
+.s-cm-side-collapse-btn .fa {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+/* Internal Homepage Styles
+===================================================*/
+
+.block {color: #ffffff; font-size:16px; text-transform:uppercase;}
+.block:hover, .block:focus {text-decoration: none; color: #ffffff;  font-size:16px; text-transform:uppercase; }
+
+.square {text-align: center; padding: 15px; color: #fff; background-color:#005179; width:100%;}
+
+.square:hover {
+background-color:#58585a;	 
+}
+
+.squareuser {
+	border:#005179 solid 2px;
+	padding: 5px;
+	color: #005179;
+	min-height: 100px;
+}
+
+
+/* Subnav Menu Styles */
+ul#conf_nav {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	display: inline-block;
+	z-index: 900;
+	width: 99%;
+        background-color: #005486;
+}
+
+ul#conf_nav li {
+	display:inline-block;
+	float: left;
+	border-right:#ffffff 1px solid;
+}
+
+ul#conf_nav li:last-of-type {
+	border-right:#ffffff 0px solid;
+}
+
+ul#conf_nav li a {
+	display:block;
+	text-align: center;
+	padding: 15px 34px;
+	color: #fff;
+	background: #005486;
+	text-decoration: none;
+}
+
+ul#conf_nav li:hover a {
+	background: #6ebe49;
+}
+
+ul#conf_nav li:hover ul a {
+	background: #6ebe49;
+	line-height:40px;
+	color: #ffffff;
+	text-align:left;
+}
+
+ul#conf_nav li:hover ul a:hover {
+	background: #005486;
+	color: #fff;
+	text-align:left;
+}
+
+ul#conf_nav li ul {
+	display: none;
+	position:absolute;
+	margin-left:-40px;
+}
+
+ul#conf_nav li ul li {
+	display: block;
+	float: none;
+}
+
+ul#conf_nav li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+ul#conf_nav li:hover ul {
+	display: block;
+}
+
+.show-menu {
+	text-decoration: none;
+	color: #fff;
+	background: #005486;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+input[type=checkbox]#show-menu{
+    display: none;
+    -webkit-appearance: none;
+}
+
+input[type=checkbox]#show-menu:checked ~ #conf_nav{
+    display: block;
+}
+
+
+.desktop {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
+  
+@media only screen and (max-width: 959px) {
+
+
+}
+
+@media(max-width: 768px) {
+
+ul#conf_nav  {
+		position: static;
+		display: none;
+	}
+
+ul#conf_nav li {
+		margin-bottom: 1px;
+		display: block;
+	}
+	
+	ul#conf_nav li a {
+    text-align: left;
+}
+
+	ul#conf_nav li ul {
+	display: block;
+	position: static;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+	ul#conf_nav  li, li a {
+		width: 100%;
+	}
+	
+	ul#conf_nav li ul a {
+	line-height:40px;
+	padding: 0px 0px 0px 80px !important;
+	width: 97.2%;
+}
+
+	.show-menu {
+		display:block;
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+#desktop_view, .hide_mobile, .desktop {
+	display:none;
+}
+
+#mobile_view, .mobile  {
+	display:block;
+}
+
+}
+
+
+
+/* Connections Styles
+--------------------------------------------------- */
+
+.s-site-aprac .s-header-user {
+    margin-top: 30px;
+}
+
+.headline {
+	color:#f48b1f;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.byline {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.side_box {
+	width: 250px;
+	padding-bottom: 25px;
+}
+
+.s-site-aprac .col-md-9, .s-site-aprac .s-bl-article-content {
+	padding-right: 60px;
+}
+
+.s-site-aprac .footer-address {
+    margin-left: 0px;
+}
+
+.s-site-aprac .s-page-sidebar .widget-template-sidebar .h3 span, .s-site-aprac .s-lp-main-sidebar .widget-template-sidebar .h3 span {
+    border-bottom: 0px solid #54565b;
+    display: inline-block;
+}
+
+#WidgetAd5AdImg{width:100%!important;}
+
+.cmshtml p.title{
+font-size:24px;
+font-weight:bold;
+}
+.cmshtml p.sub1{
+font-size:18px;
+font-weight:bold;
+}
+.cmshtml p.sub2{
+font-size:15px;
+font-weight:bold;
+}
+.cmshtml a.one:link{color:#000000;}
+.cmshtml a.one:hover{color:#000000;font-weight:bold; text-decoration:none;}
+.cmshtml a.one:visited{color:#000000; text-decoration:none;}
+.cmshtml img.author{
+padding-top:65px; width:73px;
+}
+.cmshtml .sidebar{margin: 2px;}

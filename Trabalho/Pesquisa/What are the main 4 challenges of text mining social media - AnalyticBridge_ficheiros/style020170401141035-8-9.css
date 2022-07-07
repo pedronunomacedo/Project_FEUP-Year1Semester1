@@ -1,0 +1,153 @@
+@media screen and (max-width: 1023px){
+div#column2{
+display:none;
+}
+#xg,#xg_body,#xg_ad_below_header,#xg_ad_below_footer,#column1,#column1 .xg_3col,.xg_theme #xg,.xg_theme #xg_body{
+width:100%;
+}
+#xg_head,#xg_foot,.xg_theme #xg_head,.xg_theme #xg_foot{
+width:95%;
+}
+#xg,#xg_ad_below_header,#xg_ad_below_footer,.xg_theme #xg{
+padding:10px 0;
+}
+#xg_layout_column_2{
+min-width:100px;width:720px;
+}
+}
+
+@media screen and (max-width: 1000px){#xg_layout_column_2{width:700px;}}
+@media screen and (max-width: 980px){#xg_layout_column_2{width:680px;}}
+@media screen and (max-width: 960px){#xg_layout_column_2{width:660px;}}
+@media screen and (max-width: 940px){#xg_layout_column_2{width:640px;}}
+@media screen and (max-width: 920px){#xg_layout_column_2{width:620px;}}
+@media screen and (max-width: 900px){#xg_layout_column_2{width:600px;}}
+@media screen and (max-width: 880px){#xg_layout_column_2{width:580px;}}
+@media screen and (max-width: 860px){#xg_layout_column_2{width:560px;}}
+@media screen and (max-width: 840px){#xg_layout_column_2{width:540px;}}
+@media screen and (max-width: 820px){#xg_layout_column_2{width:520px;}}
+
+@media screen and (max-width: 800px){
+#xg_layout_column_2{width:500px;}
+#xn_bar{
+min-width:400px;
+}
+#xg_ad_below_header iframe,#xg_ad_below_footer iframe{
+  -webkit-transform:scale(0.8);
+  -moz-transform:scale(0.8);
+  -ms-transform:scale(0.8);
+  -o-transform:scale(0.8);
+  transform:scale(0.8);
+  margin-left:-10px;
+}
+.dy-small,#xn_bar #xn_bar_menu_tabs #xn_signout{
+font-size:1em;
+}
+.feedburnerFeedBlock li,.xg_module_body li{
+margin:15px 0;
+}
+.xg_module_body ul{
+padding-left:15px;
+}
+.xg_module_body ul a{
+margin-left:-5px;
+}
+div.tb{
+margin:10px 0;
+}
+.tb .reactions{display:block;margin:10px 0 20px 0;}
+#application_name_header_link>img{
+width:100%;
+}
+div.xg_module_body .ib span.xg_avatar{
+position:relative;
+top:13px;
+}
+}
+
+@media screen and (max-width: 780px){#xg_layout_column_2{width:480px;}}
+@media screen and (max-width: 760px){#xg_layout_column_2{width:460px;}}
+@media screen and (max-width: 740px){#xg_layout_column_2{width:440px;}}
+@media screen and (max-width: 720px){#xg_layout_column_2{width:420px;}}
+@media screen and (max-width: 700px){#xg_layout_column_2{width:400px;}}
+@media screen and (max-width: 680px){#xg_layout_column_2{width:400px;}}
+
+@media screen and (max-width: 670px){
+#xg_layout_column_1{display:none;}
+#xg_layout_column_2{width:95%;margin:0 auto;}
+#xg_ad_below_header iframe,#xg_ad_below_footer iframe{
+  -webkit-transform:scale(0.7);
+  -moz-transform:scale(0.7);
+  -ms-transform:scale(0.7);
+  -o-transform:scale(0.7);
+  transform:scale(0.7);
+  margin-left:-100px;
+}
+}
+
+@media screen and (max-width: 600px){
+#xn_bar_menu_branding{
+display:none;
+}
+#xg_ad_below_header iframe,#xg_ad_below_footer iframe{
+  -webkit-transform:scale(0.6);
+  -moz-transform:scale(0.6);
+  -ms-transform:scale(0.6);
+  -o-transform:scale(0.6);
+  transform:scale(0.6);
+  margin-left:-200px;
+}
+.nolegend span.dy-avatar{
+display:none;
+}
+dl.comment{
+padding-left:0px;
+}
+#comments>dl>dt,#comments>dl>dd{
+margin-left:55px !important;
+}
+}
+
+@media screen and (max-width: 550px){
+#xg_ad_below_header iframe,#xg_ad_below_footer iframe{
+  -webkit-transform:scale(0.5);
+  -moz-transform:scale(0.5);
+  -ms-transform:scale(0.5);
+  -o-transform:scale(0.5);
+  transform:scale(0.5);
+  margin-left:-250px;
+}
+}
+
+@media screen and (max-width: 500px){
+#xg_ad_below_header iframe,#xg_ad_below_footer iframe{
+  -webkit-transform:scale(0.5);
+  -moz-transform:scale(0.5);
+  -ms-transform:scale(0.5);
+  -o-transform:scale(0.5);
+  transform:scale(0.5);
+  margin-left:-300px;
+}
+dl.comment dd{
+margin-left:0px!important;
+}
+#xg_head,#xg_foot,.xg_theme #xg_head,.xg_theme #xg_foot{
+width:90%;
+}
+.texteditor-container #xj_comment_submit{
+  position: relative;
+  top: -20px;
+  left: -60px;
+}
+}
+
+@media screen and (max-width: 410px){
+#xg_ad_below_header iframe,#xg_ad_below_footer iframe{
+  -webkit-transform:scale(0.5);
+  -moz-transform:scale(0.5);
+  -ms-transform:scale(0.5);
+  -o-transform:scale(0.5);
+  transform:scale(0.5);
+  margin-left:-350px;
+}
+}

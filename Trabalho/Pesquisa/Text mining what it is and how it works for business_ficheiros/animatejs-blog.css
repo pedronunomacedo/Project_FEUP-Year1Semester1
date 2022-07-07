@@ -1,0 +1,391 @@
+.bodyBg {
+    -skrollr-animation-name: animation-bodyBg;
+}
+
+@-skrollr-keyframes animation-bodyBg {
+    0-top {
+        opacity: 1;
+    }
+
+    0-top-bottom {
+        opacity: 0;
+    }
+
+    anchor-target {
+        .heroTrigger
+    }
+}
+
+.navbarAnimSimple {
+    -skrollr-animation-name: animationSimpleNavbar;
+}
+@-skrollr-keyframes animationSimpleNavbar {
+    0-top-top {
+        top: 38px;
+        background: rgba(255,255,255,0.95);
+                @removemenuWidth: false;
+
+    }
+
+    -99-top-top {
+        top: 0px;
+                @removemenuWidth: true;
+
+    }
+
+    anchor-target {
+        .sectionsWrapperBgWhite
+    }
+}
+
+
+.navbarAnimSimple .navbar-toggle {
+    -skrollr-animation-name: navToggleBgAnimationSimple;
+}
+
+@-skrollr-keyframes navToggleBgAnimationSimple {
+    0-top {
+        box-shadow: 0 8px 16px rgba(25,24,26,0);
+        background: transparent;
+        top: 0px;
+    }
+
+    -99-top-top {
+        box-shadow: 0 8px 16px rgba(25,24,26,0.1);
+        background: #ffffff;
+        top: 38px;
+    }
+
+    anchor-target {
+        .sectionsWrapperBgWhite
+    }
+}
+
+.navbarAnimSimple .logo.visible-md {
+    -skrollr-animation-name: navLogoAnimationSimple;
+}
+
+@-skrollr-keyframes navLogoAnimationSimple {
+    0-top {
+        top: 0px;
+        position: relative;
+    }
+
+    -99-top-top {
+        top: -58px;
+        position: relative;
+    }
+
+    anchor-target {
+        .sectionsWrapperBgWhite
+    }
+}
+
+.no-touch .navbarAnimSimple .navbar-brand-default .logo.visible-lg img,
+.no-touch .navbarAnimSimple .navbar-brand-default .logo.visible-lg .image
+ {
+    -skrollr-animation-name: scaleLogoAnimSimple;
+    transform-origin:left top;
+}
+@-skrollr-keyframes scaleLogoAnimSimple {
+    0-top-top {
+        margin-top:-14px;
+        margin-left:-1px;
+        -webkit-transform: scale(1.120);
+        transform:scale(1.120);
+    }
+
+    -99-top-top {
+        -webkit-transform: scale(1);
+        transform:scale(1);
+        margin-top:-6px;
+        margin-left:-0px;
+    }
+    anchor-target {
+        .sectionsWrapperBgWhite
+    }
+}
+
+
+.no-touch .navbarAnimSimple .navbar-language
+ {
+    -skrollr-animation-name: navbarLanguageAnimSimple;
+    transform-origin:left top;
+}
+@-skrollr-keyframes navbarLanguageAnimSimple {
+    0-top-top {
+        opacity:1;
+        margin-left: 35px;
+        z-index:0;
+    }
+
+    -99-top-top {
+        opacity:0;
+        margin-left:-33px;
+        z-index:0;
+    }
+
+    -100-top-top {
+        opacity:0;
+        margin-left: -33px;
+        z-index:-1;
+    }
+    anchor-target {
+        .sectionsWrapperBgWhite
+    }
+}
+
+
+
+.navbarAnimFullPage .navbar-toggle {
+    -skrollr-animation-name: navToggleBgAnimation;
+}
+
+@-skrollr-keyframes navToggleBgAnimation {
+    0-top {
+        box-shadow: 0 8px 16px rgba(25,24,26,0);
+        background: transparent;
+        top: 0px;
+    }
+
+        150-top-bottom {
+            box-shadow: 0 8px 16px rgba(25,24,26,.1);
+            background: #ffffff;
+            top: -40px;
+        }
+
+        50-top-bottom {
+            box-shadow: 0 8px 16px rgba(25,24,26,.1);
+            background: #ffffff;
+            top: 38px;
+        }
+
+    anchor-target {
+        #topSection
+    }
+}
+
+
+/*case2*/
+.firstGrayMenu .navbar-nav > li > a {
+    -skrollr-animation-name: animation-firstGrayMenuA;
+}
+
+@-skrollr-keyframes animation-firstGrayMenuA {
+    0 {
+        color: rgba(65, 66, 73,1);
+    }
+
+    800 {
+        color: rgba(65, 66, 73,1);
+    }
+}
+.firstGrayMenu .navbar-toggle .icon-bar {
+    -skrollr-animation-name: navToggleAnimationfirstGray;
+}
+
+@-skrollr-keyframes navToggleAnimationfirstGray {
+    0 {
+        background-color: rgba(65, 66, 73,1);
+    }
+
+    800 {
+        background-color: rgba(65, 66, 73,1);
+    }
+}
+
+
+.navbar-right > li > a:not(.gradientBtn).active, .navbar-right > li > a:not(.gradientBtn):focus, .navbar-right > li > a:not(.gradientBtn):hover {
+    -skrollr-animation-name: focusTopMenuAnim;
+}
+
+@-skrollr-keyframes focusTopMenuAnim {
+    0 {
+        color: rgba(255, 255, 255,1);
+    }
+
+    800 {
+        color: rgba(112, 179, 41,1);
+    }
+}
+
+/*#region footer */
+.pageWrapper {
+    z-index: 2;
+}
+
+/*no-touch*/
+.no-touch footer {
+    -skrollr-animation-name: footerNoTouchAnim;
+}
+
+@-skrollr-keyframes footerNoTouchAnim {
+    0-bottom-top {
+        opacity: 0;
+        z-index: -1;
+        top: 0px;
+    }
+
+    -1-bottom-top {
+        opacity: 1;
+        z-index: 0;
+        top: 0px;
+    }
+
+    0-top {
+        top: 0px;
+    }
+
+
+    anchor-target {
+        .emptyFooter
+    }
+}
+/*end no-touch*/
+
+/*touch */
+.touch footer {
+    -skrollr-animation-name: footerTouchAnim;
+}
+
+@-skrollr-keyframes footerTouchAnim {
+
+    0-bottom-top {
+        opacity: 0;
+        z-index: -1;
+    }
+
+    -1-bottom-top {
+        opacity: 1;
+        z-index: 0;
+    }
+
+    20-top {
+        opacity: 1;
+    }
+
+    19-top {
+        opacity: 0;
+    }
+
+    anchor-target {
+        .emptyFooter
+    }
+}
+
+.touch .emptyFooter {
+    -skrollr-animation-name: emptyFooterTouchAnim;
+}
+
+@-skrollr-keyframes emptyFooterTouchAnim {
+
+    21-top {
+        opacity: 0;
+        max-height: 1px;
+        
+    }
+
+    20-top {
+        opacity: 1;
+        max-height: 2500px;
+    }
+
+    0-bottom-top {
+        overflow: hidden;
+    }
+
+    1-bottom-top {
+        overflow: visible;
+    }
+}
+/*end touch*/
+
+
+
+.footerTrigger {
+    -skrollr-animation-name: topMenuFooterAnim;
+    position: fixed;
+}
+@-skrollr-keyframes topMenuFooterAnim {
+    0-top {
+        @colormenu: blackMenu;
+    }
+
+    1-top {
+        @colormenu: underBlackMenu;
+    }
+
+
+    500-top {
+        @colormenu: underBlackMenu;
+    }
+
+    501-top {
+        @colormenu: otherMenu;
+    }
+    
+
+    anchor-target {
+        .emptyFooter
+    }
+}
+
+
+/*#endregion footer */
+
+/*#region showHide right menu button*/
+.linkAnimatedRightMenu {
+    -skrollr-animation-name: rightMenuShowHide;
+    transition: all .5s linear 0s;
+}
+
+
+@-skrollr-keyframes rightMenuShowHide {
+
+    1-bottom-top {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    0-bottom-top {
+        opacity: 0.1;
+        -webkit-transform: translate(75px, 0);
+        transform: translate(75px, 0);
+    }
+
+    anchor-target {
+        .emptyFooter
+    }
+}
+
+/*#endregion showHide right menu button*/
+
+
+
+/*#region mainBlogCase */
+.sectionBlogHomeCaseBg {
+    -skrollr-animation-name: animation-sectionBlogHomeCaseBg;
+}
+
+@-skrollr-keyframes animation-sectionBlogHomeCaseBg {
+    300-top {
+        background-color: rgba(255,255,255,1);
+    }
+
+    100-top {
+        background-color: rgba(245,244,249,1);
+    }
+
+    0-bottom {
+        background-color: rgba(245,244,249,1);
+    }
+
+    -200-bottom {
+        background-color: rgba(255,255,255,1);
+    }
+    anchor-target {
+        .section-blogHomeCase-wa
+    }
+}
+/*#endregion mainBlogCase */

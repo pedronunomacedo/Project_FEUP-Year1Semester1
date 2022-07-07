@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Notice Message App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="https://cdn.privacy-mgmt.com/manifest.json">
+  <style>body,html{font:14px/1.21 Helvetica Neue, arial, sans-serif;font-weight:400;margin:0;padding:0;min-height:100%;}</style>
+<link href="index_data/Notice.css" rel="preload" as="style"><style>body,html{font:14px/1.21 Helvetica Neue,arial,sans-serif;font-weight:400;margin:0;padding:0;min-height:100%;text-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}body:not(.user-is-tabbing) :focus{outline:none;}</style></head>
+
+<body>
+  <div class="message-container"><div style="display: none;"><img src="index_data/a.gif"></div><div class="message-overlay" style="display: flex; background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0.65;"></div><div class="message type-modal" style="padding: 10px; border-width: 1px; border-color: rgb(255, 255, 255); border-radius: 0px; border-style: solid; background: rgb(247, 248, 250) none repeat scroll 0% 0%; width: 600px; height: auto;"><div style="font-size: 16px; font-weight: 500; color: rgb(153, 153, 153); font-family: arial, helvetica, sans-serif; display: none;"><span tabindex="0" class="message-stacksclose">X</span></div><div class="message-component message-row header-row" path="[0,0]" style="padding: 0px 8px; margin: 0px; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; border-style: solid; width: auto; height: auto; justify-content: center; align-items: flex-start;"><p class="message-component text no-children" path="[0,0,0]" style="padding: 0px; margin: 10px 0px; font-size: 32px; font-weight: 700; color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; text-align: left; width: auto;"><p>We value your privacy</p></p></div><div class="message-component message-row" path="[0,1]" style="padding: 0px; margin: 0px; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; border-style: solid; width: auto; height: auto; justify-content: flex-start; align-items: flex-start;"><p class="message-component text no-children" path="[0,1,0]" style="padding: 8px 8px 8px 9px; margin: 0px; font-size: 14px; font-weight: 400; color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; text-align: left; width: auto;"><p>We
+ and our partners use cookies to store and/or access information on 
+devices and process personal data including unique identifiers, device 
+information, and information about your browsing patterns. You may click
+ “Accept All” to accept this processing or access “Manage Preferences” 
+for more detailed information and to change your settings, including 
+your right to object where legitimate interests is used.</p><p><br></p><p><u>We and our partners process data to:</u></p><p>Store
+ and/or access information on a device; Basic ads, and ad measurement; 
+Personalised ads profile and display; Personalised content, and content 
+measurement; Precise geolocation data, and identification through device
+ scanning; Apply market research to generate audience insights; Develop 
+and improve products; and Ensure security, prevent fraud, and debug.</p><p><br></p><p>You can view our <a tabindex="0" style="color:#00A69F;text-decoration:underline;font-weight: 400;" onmouseover="this.style='color:#00A69F;text-decoration:underline;font-weight: 400;'" onmouseout="this.style='color:#00A69F;text-decoration:underline;font-weight: 400;'" href="https://www.techtarget.com/privacy-policy/" target="_blank" aria-label="message-link">Privacy Policy</a> for more information.</p></p></div><div class="message-component message-row bottom-row" path="[0,2]" style="padding: 0px; margin: 0px; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; border-style: solid; width: auto; height: auto; justify-content: space-between; align-items: flex-start;"><button tabindex="0" title="Manage Preferences" aria-label="Manage Preferences" class="message-component message-button no-children settings-button" path="[0,2,0]" style="padding: 10px 15px; margin: 10px; border-width: 1px; border-color: rgb(0, 166, 159); border-radius: 0px; border-style: solid; font-size: 14px; font-weight: 700; color: rgb(255, 255, 255); font-family: arial, helvetica, sans-serif; width: auto; background: rgb(0, 166, 159) none repeat scroll 0% 0%;">Manage Preferences</button><button tabindex="0" title="Accept All" aria-label="Accept All" class="message-component message-button no-children accept-button" path="[0,2,1]" style="padding: 10px 50px; margin: 10px; border-width: 1px; border-color: rgb(0, 166, 159); border-radius: 0px; border-style: solid; font-size: 14px; font-weight: 700; color: rgb(255, 255, 255); font-family: arial, helvetica, sans-serif; width: auto; background: rgb(0, 166, 159) none repeat scroll 0% 0%;">Accept All</button></div></div></div><script type="__PREACT_CLI_DATA__">{"preRenderData":{"url":"/"}}</script>
+  <script>
+    if (!String.prototype.includes) {
+      String.prototype.includes = function (search, start) {
+        'use strict';
+        if (search instanceof RegExp) {
+          throw TypeError('first argument must not be a RegExp');
+        }
+        if (start === undefined) { start = 0; }
+        return this.indexOf(search, start) !== -1;
+      };
+    }
+    if (!Array.prototype.find) {
+      Object.defineProperty(Array.prototype, 'find', {
+        value: function (predicate) {
+          // 1. Let O be ? ToObject(this value).
+          if (this == null) {
+            throw TypeError('"this" is null or not defined');
+          }
+
+          var o = Object(this);
+
+          // 2. Let len be ? ToLength(? Get(O, "length")).
+          var len = o.length >>> 0;
+
+          // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+          if (typeof predicate !== 'function') {
+            throw TypeError('predicate must be a function');
+          }
+
+          // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+          var thisArg = arguments[1];
+
+          // 5. Let k be 0.
+          var k = 0;
+
+          // 6. Repeat, while k < len
+          while (k < len) {
+            // a. Let Pk be ! ToString(k).
+            // b. Let kValue be ? Get(O, Pk).
+            // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+            // d. If testResult is true, return kValue.
+            var kValue = o[k];
+            if (predicate.call(thisArg, kValue, k, o)) {
+              return kValue;
+            }
+            // e. Increase k by 1.
+            k++;
+          }
+
+          // 7. Return undefined.
+          return undefined;
+        },
+        configurable: true,
+        writable: true
+      });
+    }
+    if (!Array.prototype.includes) {
+      Object.defineProperty(Array.prototype, 'includes', {
+        value: function (searchElement, fromIndex) {
+
+          if (this == null) {
+            throw new TypeError('"this" is null or not defined');
+          }
+
+          var o = Object(this);
+
+          var len = o.length >>> 0;
+
+          if (len === 0) {
+            return false;
+          }
+
+          var n = fromIndex | 0;
+
+          var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+
+          function sameValueZero(x, y) {
+            return x === y || (typeof x === 'number' && typeof y === 'number' && isNaN(x) && isNaN(y));
+          }
+
+          while (k < len) {
+            if (sameValueZero(o[k], searchElement)) {
+              return true;
+            }
+            k++;
+          }
+
+          return false;
+        }
+      });
+    }
+  </script>
+  <script nomodule="">!function () { var e = document, t = e.createElement("script"); if (!("noModule" in t) && "onbeforeload" in t) { var n = !1; e.addEventListener("beforeload", function (e) { if (e.target === t) n = !0; else if (!e.target.hasAttribute("nomodule") || !n) return; e.preventDefault() }, !0), t.type = "module", t.src = ".", e.head.appendChild(t), t.remove() } }();
+  </script>
+<script type="text/javascript" src="index_data/polyfills.js"></script><script type="text/javascript" src="index_data/Notice.js"></script><style id="custom-styles">.stack .accordion .chevron { right: 12px !important; left: auto; }
+
+
+/*Stack Customizations - update default properties as needed*/
+.stack { background-color: #F7F8FA !important; }
+.stack .accordion .chevron { color: #000000 !important; right: -100px !important; left: auto !important; }
+.accordion { font-family: arial, helvetica, sans-serif !important; color: #000000 !important; width: 80% !important; background: #F7F8FA!important;}
+.message-stacks .panel p { font-family: arial, helvetica, sans-serif !important; color: #555555 !important;}
+.message-stacks .panel { border-bottom: 1px solid #e5e9ee !important }
+
+@media only screen and (max-width: 600px) {
+.bottom-row { display: flex; flex-direction: row !important; justify-content: center !important; } 
+.header-row { display: flex !important; flex-direction: row !important; }
+.stack .accordion .chevron { right: auto !important; left: 320px !important; }
+}
+@media only screen and (max-width: 320px) {
+    .accept-button {padding: 10px 16px 10px 16px !important}
+    .settings-button {padding: 10px 12px 10px 12px !important}
+} </style>
+
+<link rel="stylesheet" href="index_data/Notice.css"></body></html>
